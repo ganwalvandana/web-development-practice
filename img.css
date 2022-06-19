@@ -1,0 +1,19 @@
+.panda {
+    width: 200px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.panda1{
+    width: 200px;
+    object-position: center;
+    margin: 50px;
+}
+
+.panda2{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    margin: 50px;
+    
+}

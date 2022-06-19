@@ -1,0 +1,84 @@
+.whole{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-style: solid;
+    border-color: grey;
+    box-shadow: inset 1px 2px 5px  rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.inbox{
+    color: grey;
+    font-size: 12px;
+    margin: 7px 20px;
+    display: block;
+
+}
+.cat{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    
+}
+.one,.two,.three{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    flex: 1;
+   
+}
+.image{
+    flex:1;
+    align-items: center;
+    margin: 20px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    
+}
+.heading{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0px;
+    
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+   
+}
+.col1,.col2{
+    margin: 0px 0px;
+}
+.middle{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+.last{
+    font-size: 14px;
+    color: rgb(114, 113, 113);
+    margin: 6px 0px;
+}
+.row2,.row3{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.time{
+    font-size: 13px;
+    margin: 0px;
+    color:rgb(114, 113, 113) ;
+    margin-right: 10px;
+    align-items: center;
+    
+}
+
+

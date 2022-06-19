@@ -1,0 +1,160 @@
+<style>
+
+
+    .whole{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+     .cat1,.cat2,.cat3{
+       
+        vertical-align: top;
+        margin: 20px;
+        width: 300px;
+        border-style: solid;
+        border-color: lightgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        
+       
+    }
+    .one,.two,.three{
+       width: 300px;
+       height: 250px; 
+    }
+    .name1,.name2,.name3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .friend1,.friend2,.friend3{
+        font-size: 15px;
+        color: gray;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .button1,.button2,.button3{
+        font-size: 15px;
+        color: white;
+        background-color: rgb(20, 141, 211);
+        width: 120px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 5px;
+        border-style: none;
+        border-radius: 7px;
+        margin-bottom: 10px;
+
+    }
+    .button1,.button2,.button3:hover{
+        cursor: pointer;
+    }
+    .cat4{
+        width: 60px;
+    }
+    .mimi{
+        display: inline-block;
+    }
+   
+</style>
+
+<div class="whole">
+    <div>
+        <div class="cat1">
+            <div><img class="one" src="cat1.jpg"></div>
+            <div>
+                <div><p class="name1"> Oliver</p></div>
+                <div class="mimi">
+                    <div class="mutual">
+                        <img class="cat4" src="cat4.jpg" >
+                    </div>
+                    <div>
+                        <p class="friend1"> 2 mutual friends</p>
+                    </div>
+                </div>
+                <div><button class="button1"> Add Friend</button></div>
+            </div>
+        </div>
+    <div>
+        <div class="cat2">
+            <div>
+                <img class="two" src="cat2.jpg">
+            </div>
+            <div>
+                <div><p class="name2"> Mimi</p></div>
+                    <div class="mimi">
+                        <div class="mutual">
+                            <img class="cat4" src="cat4.jpg" >
+                        </div>
+                        <div>
+                            <p class="friend2"> 4 mutual friends</p>
+                        </div>
+                    </div>
+                <div>
+                    <button class="button2"> Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="cat3">
+            <div>
+                <img class="three" src="cat3.jpg">
+            </div>
+            <div>
+                <div><p class="name3"> Rex</p></div>
+                    <div class="mimi">
+                        <div class="mutual">
+                            <img  class="cat4" src="cat4.jpg" >
+                        </div>
+                        <div>
+                            <p class="friend3"> 5 mutual friends</p>
+                        </div>
+                    </div>
+                <div>
+                    <button class="button3"> Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+</div>            
+
+
+   
+<!--
+<div class="cat2">
+    <img class="two" src="cat2.jpg">
+    <p class="name2"> Mimi</p>
+    <p class="friend2"> 3 mutual friends</p>
+    <button class="button2"> Add Friend</button>
+</div>
+<div class="cat3">
+    <img class="three" src="cat3.jpg">
+    <p class="name3"> Rex</p>
+    <p class="friend3"> 5 mutual friends</p>
+    <button class="button3"> Add Friend</button>
+</div>
+</div>
+<div>
+    <div class="cat1">
+        <img class="one" src="cat1.jpg">
+        <p class="name1"> Oliver</p>
+        <p class="friend1"> 2 mutual friends</p>
+        <button class="button1"> Add Friend</button>
+    </div>
+    <div class="cat2">
+        <img class="two" src="cat2.jpg">
+        <p class="name2"> Mimi</p>
+        <p class="friend2"> 3 mutual friends</p>
+        <button class="button2"> Add Friend</button>
+    </div>
+    <div class="cat3">
+        <img class="three" src="cat3.jpg">
+        <p class="name3"> Rex</p>
+        <p class="friend3"> 5 mutual friends</p>
+        <button class="button3"> Add Friend</button>
+    </div>
+    </div>
+    </div>
+-->
+    
